@@ -8,3 +8,23 @@ body {
   padding: 0;
   margin: 0;
 }
+
+// Remove default styling from links.
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+// Remove annoying styling from lists.
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+// Make images fill the exact size of their parents.
+img {
+  width: 100%;
+  height: auto;
+}
